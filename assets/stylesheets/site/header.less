@@ -1,20 +1,25 @@
 
 .navbar {
-  background-color: #7d12ff;
+  background-color: #ffffee;
   border: none;
-
+  color: black;
 
   .navbar-brand {
     padding: 17.5px 15px;
-    color: @brand-primary;
+    color: black;
     font-size: 24px;
     line-height: 50px;
     height: 64px;
   }
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-left: -80px !important;
+  }
+}
 
   .navbar-nav {
     & > li > a {
-      color: @brand-primary;
+      color: black;
       line-height: 29px;
       font-size: 17.5px;
       @media (min-width: 768px) {
@@ -22,7 +27,6 @@
         padding-bottom: 17.5px;
       }
     }
-
     & >.active {
       a,
       a:hover {
@@ -39,19 +43,6 @@
   }
 }
 
-#signup { 
-  background-color: #DE4A3E;
-  color: white;
-  /*font-size: 18px;*/
-  margin-top: 14px;
-  margin-right: 0px;
-  border: none;
-  padding: 5px;
-  &:hover{
-    color: #ff00ce;
-    background-color: black;
-  };
-}
 @media (min-width: 768px) and (max-width: 856px) {
  #signup {
   margin-right: -15px;
@@ -67,4 +58,20 @@
   border: none;
   max-height: 5000px !important;
   height: 100% !important;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  color: black;
+}
+
+.navbar-toggle {
+  /*background: black;*/
 }

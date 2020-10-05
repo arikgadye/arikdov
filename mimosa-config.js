@@ -42,8 +42,8 @@ exports.config = {
         desc:"ELECTRIC TURTLES Scripture",
       },
       press: {
-        title:"ELECTRIC TURTLES Contact",
-        desc:"ELECTRIC TURTLES Contact",
+        title:"Arik Dov Contact",
+        desc:"Arik Dov Contact",
       },
       live: {
         title:"ELECTRIC TURTLES Live",
@@ -54,8 +54,8 @@ exports.config = {
         desc:"ELECTRIC TURTLES Pictures",
       },
       videos: {
-        title:"ELECTRIC TURTLES Videos",
-        desc:"ELECTRIC TURTLES Videos",
+        title:"Arik Dov Videos",
+        desc:"Arik Dov Videos",
       },
 
       turtletimecapsule: {
@@ -63,16 +63,24 @@ exports.config = {
         desc: "GO BACK IN TURTLE TIME",
       },
       index: {
-        title:"ELECTRIC TURTLES OFFICIAL WEBSITE",
-        desc: "ELECTRIC TURTLES is a rock band from San Francisco and Germany, making raw, sexy and funkadelic rock music. ELECTRIC TURTLES is sexual explosion.",
+        title:"Arik Dov Official Website",
+        desc: "Arik Dov Music",
       },
       main: {
         title:"ELECTRIC TURTLES",
         desc: "ELECTRIC TURTLES",
       },
        music: {
-        title:"ELECTRIC TURTLES Music",
-        desc: "ELECTRIC TURTLES",
+        title:"Arik Dov Music",
+        desc: "Arik Dov",
+      },
+      epk: {
+        title: "Arik Dov EPK",
+        desc: "Arik Dov EPK",
+      },
+      about: {
+        title: "Arik Dov About",
+        desc: "About Arik Dov"
       }
     }
   }

@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @import "base/variables";
 @import "base/mixins";
 @import (inline) "vendor/bootstrap.min.css";
@@ -10,16 +7,29 @@
 @import "site/header";
 @import (inline) "site/footer.css";
 
+@font-face {
+  font-family: "Typewriter";
+  src: url("../fonts/typewriter.ttf")
+}
+
+@font-face {
+  font-family: "Nanami";
+  src: url("../fonts/Nanami.otf")
+}
+
+p {
+  font-size: 12px;
+}
 
 body {
   -webkit-font-smoothing: antialiased;
   letter-spacing: .1px;
   text-rendering: optimizeLegibility;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Nanami", cursive;
   font-size: 16px;
   line-height: 1.846;
-  background-color: #7d12ff;
-  color: #666;
+  background-color: #ffffee;
+  color: black;
   overflow-x: hidden !important;
   /*cursor: url("../images/eyeball.png"), auto !important;*/
 
@@ -27,19 +37,20 @@ body {
 }
 html, body {
   width: 100%;
-    margin: 44px 0;
-    padding: 0px;
     overflow-x: hidden; 
 }
 a {
     /*cursor: url("../images/eyeballinvert.png"), auto !important;*/
     color: black;
   };
-h1, h2, h3, h4, h5, h6, p {
-  font-family: "Permanent Marker", cursive;
-  color: @brand-primary;
+h2, h3, h4, h5, h6, p {
+  font-family: 'Courier Prime', monospace;
+  color: black;
 }
 
+h1 {
+  font-size: 60px;
+}
 .blog {
   h2, h1, h3, p, h4, h5 {color: black}
   color:  black !important;
@@ -173,12 +184,15 @@ hr {
   
 .index-page p {
   line-height: 1.2; 
-    font-size: 30px;
+    font-size: 16px;
   }
-@media (max-width: 765px) {
-  .index-page p {
-    font-size: 20px;
-  }
+
+.about-page p {
+  font-size: 14px;
+}
+
+.press-page p {
+  font-size: 16px;
 }
 
 .post {
@@ -202,3 +216,39 @@ hr {
     border: 4px solid #ff7675; 
   }
 }
+
+.subscribe {
+  background: none;
+  margin-top: 5px;
+  border: 1px solid black;
+  &:hover{
+    background: white;
+    color: black;
+  }
+}
+
+.main-action .col-sm-4 {
+  text-align: center;
+}
+
+.social-nav-epk {
+  margin-top: 0px;
+  color: white !important;
+  font-size: 200%;
+  display: inline-flex !important;
+  margin-left: 18px;
+  text-align: center;
+
+}
+.fa {
+  color: black !important;
+}
+footer {
+  margin-top: -90px;
+}
+
+.social-nav-epk a {
+  font-size: 24px;
+    padding-right: 20px;
+  }
+
