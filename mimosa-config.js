@@ -46,7 +46,7 @@ exports.config = {
         desc:"Arik Dov Contact",
       },
       live: {
-        title:"ELECTRIC TURTLES Live",
+        title:"Arik Dov Live",
         desc:"ELECTRIC TURTLES Live",
       },
       pictures: {
